@@ -1,0 +1,48 @@
+$brand-color: #00ACAC;
+
+.login__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  margin-top: -4.5em;
+}
+
+.login__container-item {
+  background-color: #fff;
+  padding:10px 50px 30px;
+  color: $brand-color;
+  border: 0px !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12) !important;
+  border-radius: 0px !important;      
+  
+  hr{
+      border-top: 1px solid #f5f5f5 !important;
+  }
+
+  h3{
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .contact {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    li{
+      list-style: none;
+      float: left;
+      margin-left:1em;
+      a{
+        font-size: 1.5em;
+        color: $brand-color;
+      }
+    }
+  }
+
+}
